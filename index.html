@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Header</h1>
+		</header>
+		<nav>
+			<ul>
+				<li>Link 1</li>
+				<li>Link 2</li>
+				<li>Link 3</li>
+				<li>Link 4</li>
+			</ul>
+		</nav>
+		<main>
+			<aside class="left">
+				<h2>Aside left</h2>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusamus, eaque. Aperiam culpa voluptatibus, rem praesentium alias incidunt repudiandae sint nulla dicta illum accusamus eaque placeat. Debitis, animi accusantium explicabo aspernatur? Blanditiis dolore magnam accusantium hic odio, quas eaque fugiat.
+			</aside>
+			<article>
+				<h2>Article</h2>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorem quia dolorum quibusdam doloremque excepturi quidem laboriosam aperiam. Doloribus, corporis, minima facilis numquam, accusantium earum asperiores placeat in sint iste, aliquam molestias magni dicta! Nam ipsam in neque quam rerum eos nulla modi numquam officiis animi debitis esse doloribus ab officia asperiores, eveniet, inventore necessitatibus distinctio aspernatur. Blanditiis, minima in!
+			</article>
+			<aside class="right">
+				<h2>Aside right</h2>
+				<div id="time">00:00:00</div>
+				<hr><br>
+				<div class="butts">
+					<button class="mybtns" data-age="70">Button 1</button>
+					<button class="mybtns" data-age="75">Button 2</button>
+					<button class="mybtns" data-age="80">Button 3</button>
+					<button class="mybtns" data-age="85">Button 4</button>
+					<button class="mybtns" data-age="90">Button 5</button>
+					<button class="mybtns" onclick="showWindow(-1)">close</button>
+				</div>
+			</aside>
+		</main>
+		<footer>
+			<h2>Footer</h2>
+		</footer>
+	</div>
+
+	<div class="windows" id="witem1">
+		<h2 class="w-100 text-center mt-2">Window 1</h2>
+	</div>
+	<div class="windows" id="witem2">
+		<h2 class="w-100 text-center mt-2">Window 2</h2>
+	</div>
+	<div class="windows" id="witem3">
+		<h2 class="w-100 text-center mt-2">Window 3</h2>
+	</div>
+	<div class="windows" id="witem4">
+		<h2 class="w-100 text-center mt-2">Window 4</h2>
+	</div>
+	<div class="windows" id="witem5">
+		<h2 class="w-100 text-center mt-2">Window 5</h2>
+		<button class="btn btn-info btn-w-close" onclick="showWindow(-1)">Close</button>
+	</div>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
